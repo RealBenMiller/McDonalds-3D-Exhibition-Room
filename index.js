@@ -15,34 +15,19 @@
  */
 "use strict";
 
-var viewer = new Marzipano.Viewer(document.getElementById("pano"));
+var levels = [
+  { tileSize: 512, size: 512 },
+  { tileSize: 512, size: 1024 },
+];
 
-// Create source.
-var source = Marzipano.ImageUrlSource.fromString("tiles/{z}/{f}/{y}/{x}.jpg", {
-  cubeMapPreviewUrl: "tiles/preview.jpg",
-});
+var geometry = new Marzipano.CubeGeometry(levels);
+var source = Marzipano.ImageUrlSource.fromString("tiles/{z}/{f}/{y}/{x}.jpg");
+var view = new Marzipano.RectilinearView();
 
-// Create geometry.
-var geometry = new Marzipano.CubeGeometry([
-  { tileSize: 256, size: 256, fallbackOnly: true },
-  { size: 512, tileSize: 512 },
-  { size: 1024, tileSize: 512 },
-  { size: 2048, tileSize: 512 },
-]);
-
-// Create view.
-var limiter = Marzipano.RectilinearView.limit.traditional(
-  2048,
-  (120 * Math.PI) / 180
-);
-var view = new Marzipano.RectilinearView(null, limiter);
-
-// Create scene.
 var scene = viewer.createScene({
   source: source,
   geometry: geometry,
   view: view,
-  pinFirstLevel: true,
 });
 
 // Display scene.
