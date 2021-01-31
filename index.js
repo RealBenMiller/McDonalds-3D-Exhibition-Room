@@ -24,17 +24,17 @@ var viewerOpts = {
 
 var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
 
-// var levels = [
-//   { tileSize: 256, size: 256, fallbackOnly: true },
-//   { size: 512, tileSize: 512 },
-//   { size: 1024, tileSize: 512 },
-//   { size: 2048, tileSize: 512 },
-// ];
-
 var levels = [
-  { tileSize: 512, size: 512 },
-  { tileSize: 512, size: 1024 },
+  { tileSize: 256, size: 256, fallbackOnly: true },
+  { size: 512, tileSize: 512 },
+  { size: 1024, tileSize: 512 },
+  { size: 2048, tileSize: 512 },
 ];
+
+// var levels = [
+//   { tileSize: 512, size: 512 },
+//   { tileSize: 512, size: 1024 },
+// ];
 
 var geometry = new Marzipano.CubeGeometry(levels);
 var source = Marzipano.ImageUrlSource.fromString(
