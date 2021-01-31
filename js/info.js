@@ -15,18 +15,16 @@
  */
 "use strict";
 
-scene
-  .hotspotContainer()
-  .createHotspot(document.querySelector("#info"), {
-    yaw: 0.7227102907804497,
-    pitch: -0.06692682398677086,
-  });
+scene.hotspotContainer().createHotspot(document.querySelector("#info"), {
+  yaw: 0.7227102907804497,
+  pitch: -0.06692682398677086,
+});
 
 document
   .querySelector("#info .icon_wrapper")
   .addEventListener("click", function () {
-    document.querySelector("#info").classList.toggle("expanded");
-    document.querySelector("#inner_icon").classList.toggle("closeIcon");
+    var boardOne = document.getElementById("boardOne");
+    boardOne.modal("show");
   });
 
 document.querySelector("#info .close").addEventListener("click", function () {
