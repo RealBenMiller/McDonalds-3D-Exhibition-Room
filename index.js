@@ -15,6 +15,15 @@
  */
 "use strict";
 
+var panoElement = document.getElementById("pano");
+var viewerOpts = {
+  controls: {
+    mouseViewMode: "drag", // drag|qtvr
+  },
+};
+
+var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
+
 var levels = [
   { tileSize: 512, size: 512 },
   { tileSize: 512, size: 1024 },
