@@ -23,8 +23,7 @@ scene.hotspotContainer().createHotspot(document.querySelector("#info"), {
 document
   .querySelector("#info .icon_wrapper")
   .addEventListener("click", function () {
-    var boardOne = document.getElementById("boardOne");
-    boardOne.modal("show");
+    document.getElementById("boardOne").modal("show");
   });
 
 document.querySelector("#info .close").addEventListener("click", function () {
