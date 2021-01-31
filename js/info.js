@@ -26,3 +26,8 @@ document
     let modal = document.getElementById("welcomeModal");
     modal.style.display = "block";
   });
+
+function hideModal() {
+  let modal = document.getElementById("welcomeModal");
+  modal.style.display = "none";
+}
