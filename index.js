@@ -37,7 +37,7 @@ vvar levels = [
 ];
 
 var geometry = new Marzipano.CubeGeometry(levels);
-var source = Marzipano.ImageUrlSource.fromString("tiles/{z}/{f}/{y}/{x}.jpg");
+var source = Marzipano.ImageUrlSource.fromString("tiles/0-mcdonalds-exhibition-room/{z}/{f}/{y}/{x}.jpg");
 var view = new Marzipano.RectilinearView();
 
 var scene = viewer.createScene({
