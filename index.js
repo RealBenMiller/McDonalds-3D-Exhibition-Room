@@ -31,23 +31,25 @@ var levels = [
   { size: 2048, tileSize: 512 },
 ];
 
-vvar levels = [
+var levels = [
   { tileSize: 512, size: 512 },
-  { tileSize: 512, size: 1024 }
+  { tileSize: 512, size: 1024 },
 ];
 
 var geometry = new Marzipano.CubeGeometry(levels);
-var source = Marzipano.ImageUrlSource.fromString("tiles/0-mcdonalds-exhibition-room/{z}/{f}/{y}/{x}.jpg");
+var source = Marzipano.ImageUrlSource.fromString(
+  "tiles/0-mcdonalds-exhibition-room/{z}/{f}/{y}/{x}.jpg"
+);
 var view = new Marzipano.RectilinearView();
 
 var scene = viewer.createScene({
   source: source,
   geometry: geometry,
-  view: view
+  view: view,
 });
 
 scene.switchTo({
-  transitionDuration: 1000
+  transitionDuration: 1000,
 });
 
 // (function() {
