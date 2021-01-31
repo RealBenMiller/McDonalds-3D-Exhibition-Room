@@ -31,7 +31,7 @@ var levels = [
   { size: 2048, tileSize: 512 },
 ];
 
-var geometry = new Marzipano.CubeGeometry(levles);
+var geometry = new Marzipano.CubeGeometry(levels);
 var source = Marzipano.ImageUrlSource.fromString(
   "tiles/0-mcdonalds-exhibition-room/{z}/{f}/{y}/{x}.jpg",
   { cubeMapPreviewUrl: "tiles/0-mcdonalds-exhibition-room/preview.jpg" }
