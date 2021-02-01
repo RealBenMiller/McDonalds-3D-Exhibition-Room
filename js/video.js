@@ -18,7 +18,7 @@
 scene.hotspotContainer().createHotspot(
   document.getElementById("videoContainer"),
   {
-    yaw: -0.05,
+    yaw: 0,
     pitch: 0.05,
   },
   {
