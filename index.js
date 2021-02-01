@@ -49,7 +49,12 @@ var geometry = new Marzipano.CubeGeometry(levels);
 var source = Marzipano.ImageUrlSource.fromString(
   "tiles/0-mcdonalds-exhibition-room/{z}/{f}/{y}/{x}.jpg"
 );
-var view = new Marzipano.RectilinearView();
+var limiter = Marzipano.RectilinearView.limit.traditional(
+  data.faceSize,
+  (100 * Math.PI) / 180,
+  (120 * Math.PI) / 180
+);
+var view = new Marzipano.RectilinearView(data.initialViewParameters, limiter);
 
 var scene = viewer.createScene({
   source: source,
