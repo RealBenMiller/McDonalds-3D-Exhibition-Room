@@ -15,12 +15,19 @@
  */
 "use strict";
 
-scene
-  .hotspotContainer()
-  .createHotspot(document.getElementById("videoContainer"), {
+scene.hotspotContainer().createHotspot(
+  document.getElementById("videoContainer"),
+  {
     yaw: -0.32,
     pitch: -0.07,
-  });
+  },
+  {
+    perspective: {
+      radius: 1640,
+      extraTransforms: "rotateX(5deg)",
+    },
+  }
+);
 
 var VideoHTML =
   '<iframe id="youtube" width="240" height="130" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
