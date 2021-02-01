@@ -29,7 +29,7 @@ scene.hotspotContainer().createHotspot(
 );
 
 var VideoHTML =
-  '<iframe id="youtube" width="850" height="450" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
+  '<iframe id="youtube" width="900" height="480" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
 
 var VideoHolder = (document.getElementById(
   "videoContainer"
