@@ -18,12 +18,12 @@
 scene
   .hotspotContainer()
   .createHotspot(document.getElementById("videoContainer"), {
-    yaw: -0.1,
-    pitch: -0.06,
+    yaw: -0.35,
+    pitch: -0.065,
   });
 
 var VideoHTML =
-  '<iframe id="youtube" width="320" height="120" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
+  '<iframe id="youtube" width="190" height="130" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
 
 var VideoHolder = (document.getElementById(
   "videoContainer"
