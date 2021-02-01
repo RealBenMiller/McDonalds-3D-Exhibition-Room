@@ -18,8 +18,8 @@
 scene
   .hotspotContainer()
   .createHotspot(document.getElementById("videoContainer"), {
-    yaw: -0.01,
-    pitch: -0.05,
+    yaw: -0.1,
+    pitch: -0.06,
   });
 
 var VideoHTML =
