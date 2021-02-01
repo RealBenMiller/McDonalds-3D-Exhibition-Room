@@ -18,7 +18,7 @@
 scene.hotspotContainer().createHotspot(
   document.getElementById("videoContainer"),
   {
-    yaw: -0.1,
+    yaw: -0.05,
     pitch: 0.05,
   },
   {
@@ -30,7 +30,7 @@ scene.hotspotContainer().createHotspot(
 );
 
 var VideoHTML =
-  '<iframe id="youtube" width="800" height="450" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
+  '<iframe id="youtube" width="850" height="450" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
 
 var VideoHolder = (document.getElementById(
   "videoContainer"
