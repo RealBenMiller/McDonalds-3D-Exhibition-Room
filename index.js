@@ -60,6 +60,7 @@ var scene = viewer.createScene({
   source: source,
   geometry: geometry,
   view: view,
+  pinFirstLevel: true,
 });
 
 scene.switchTo({
