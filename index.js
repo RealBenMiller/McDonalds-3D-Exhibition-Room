@@ -50,7 +50,7 @@ var source = Marzipano.ImageUrlSource.fromString(
   "tiles/0-mcdonalds-exhibition-room/{z}/{f}/{y}/{x}.jpg"
 );
 var limiter = Marzipano.RectilinearView.limit.traditional(
-  data.faceSize,
+  1000,
   (100 * Math.PI) / 180,
   (120 * Math.PI) / 180
 );
