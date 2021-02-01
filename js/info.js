@@ -40,3 +40,8 @@ scene.hotspotContainer().createHotspot(
   },
   { perspective: { radius: 1640, extraTransforms: "rotateX(5deg)" } }
 );
+
+var VideoHTML =
+  '<iframe id="youtube" width="1280" height="480" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
+
+document.getElementById("video").innerHTML(VideoHTML);
