@@ -15,23 +15,6 @@
  */
 "use strict";
 
-scene.hotspotContainer().createHotspot(document.querySelector("#info"), {
-  yaw: 0.7227102907804497,
-  pitch: -0.06692682398677086,
-});
-
-document
-  .querySelector("#info .icon_wrapper")
-  .addEventListener("click", function () {
-    let modal = document.getElementById("welcomeModal");
-    modal.style.display = "block";
-  });
-
-function hideModal() {
-  let modal = document.getElementById("welcomeModal");
-  modal.style.display = "none";
-}
-
 scene
   .hotspotContainer()
   .createHotspot(document.getElementById("videoContainer"), {
