@@ -24,7 +24,6 @@ scene.hotspotContainer().createHotspot(
   {
     perspective: {
       radius: 1640,
-      extraTransforms: "rotateX(5deg)",
     },
   }
 );
