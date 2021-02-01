@@ -32,14 +32,10 @@ function hideModal() {
   modal.style.display = "none";
 }
 
-scene.hotspotContainer().createHotspot(
-  document.getElementById("video"),
-  {
-    yaw: 0.00752894003238147,
-    pitch: 0.026299914993902718,
-  },
-  { perspective: { radius: 1640, extraTransforms: "rotateX(5deg)" } }
-);
+scene.hotspotContainer().createHotspot(document.getElementById("video"), {
+  yaw: 0.00752894003238147,
+  pitch: 0.026299914993902718,
+});
 
 var VideoHTML =
   '<iframe id="youtube" width="1280" height="480" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
