@@ -32,7 +32,11 @@ function hideModal() {
   modal.style.display = "none";
 }
 
-scene.hotspotContainer().createHotspot(document.getElementById("video"), {
-  yaw: 0.00752894003238147,
-  pitch: 0.026299914993902718,
-});
+scene.hotspotContainer().createHotspot(
+  document.getElementById("video"),
+  {
+    yaw: 0.00752894003238147,
+    pitch: 0.026299914993902718,
+  },
+  { perspective: { radius: 1640, extraTransforms: "rotateX(5deg)" } }
+);
