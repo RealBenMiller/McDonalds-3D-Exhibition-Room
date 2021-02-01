@@ -18,8 +18,8 @@
 scene.hotspotContainer().createHotspot(
   document.getElementById("videoContainer"),
   {
-    yaw: -0.32,
-    pitch: -0.07,
+    yaw: -0.2,
+    pitch: -0.06,
   },
   {
     perspective: {
@@ -30,7 +30,7 @@ scene.hotspotContainer().createHotspot(
 );
 
 var VideoHTML =
-  '<iframe id="youtube" width="240" height="130" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
+  '<iframe id="youtube" width="1920" height="1090" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
 
 var VideoHolder = (document.getElementById(
   "videoContainer"
