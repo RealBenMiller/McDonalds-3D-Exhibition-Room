@@ -54,11 +54,14 @@ var limiter = Marzipano.RectilinearView.limit.traditional(
   (100 * Math.PI) / 180,
   (120 * Math.PI) / 180
 );
-var view = new Marzipano.RectilinearView({{
-  "yaw": 0.02655209632063915,
-  "pitch": 0,
-  "fov": 1.5490757487700753
-}, limiter);
+var view = new Marzipano.RectilinearView(
+  {
+    yaw: 0.02655209632063915,
+    pitch: 0,
+    fov: 1.5490757487700753,
+  },
+  limiter
+);
 
 var scene = viewer.createScene({
   source: source,
