@@ -31,3 +31,8 @@ function hideModal() {
   let modal = document.getElementById("welcomeModal");
   modal.style.display = "none";
 }
+
+container.createHotspot(document.getElementById("video"), {
+  yaw: 0.00752894003238147,
+  pitch: 0.026299914993902718,
+});
