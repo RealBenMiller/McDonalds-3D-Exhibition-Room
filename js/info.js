@@ -32,6 +32,11 @@ function hideModal() {
   modal.style.display = "none";
 }
 
+function hideloadingModal() {
+  let modal = document.getElementById("loadingModal");
+  modal.style.display = "none";
+}
+
 scene
   .hotspotContainer()
   .createHotspot(document.getElementById("videoContainer"), {
