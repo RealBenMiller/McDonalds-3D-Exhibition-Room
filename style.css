@@ -886,7 +886,6 @@ MODAL
   width: 80%; /* Could be more or less, depending on screen size */
   border-radius: 10px;
   border: 2px solid red;
-  box-shadow: 10px 10px 15px 5px yellow;
 }
 
 .modal-text {
@@ -907,18 +906,31 @@ h1 {
 button {
   background-image: none;
   background-color: white;
-  color: #252969;
+  color: red;
   padding: 15px;
   border: 2px solid #252969;
   border-radius: 5px;
 }
 
 button:hover {
-  background: #252969;
+  background: red;
   color: white;
+}
+
+.buttonholder {
+  width: 100%;
+  text-align: center;
 }
 
 .svgHolder {
   width: 100%;
   text-align: center;
+}
+
+.BoardHeader {
+  display: flex;
+}
+
+.logo {
+  width: 100px;
 }
