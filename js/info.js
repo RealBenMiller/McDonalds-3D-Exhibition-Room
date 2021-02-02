@@ -50,12 +50,35 @@ scene.hotspotContainer().createHotspot(document.querySelector("#infoLeaflet"), {
   pitch: 0.20617291567136675,
 });
 
-document
-  .querySelector("#info .icon_wrapper")
-  .addEventListener("click", function () {
-    let modal = document.getElementById("welcomeModal");
-    modal.style.display = "block";
-  });
+document.querySelector("#info ").addEventListener("click", function () {
+  let modal = document.getElementById("welcomeModal");
+  modal.style.display = "block";
+});
+
+document.querySelector("#info2 ").addEventListener("click", function () {
+  let modal = document.getElementById("welcomeModal");
+  modal.style.display = "block";
+});
+document.querySelector("#info3 ").addEventListener("click", function () {
+  let modal = document.getElementById("welcomeModal");
+  modal.style.display = "block";
+});
+document.querySelector("#info4 ").addEventListener("click", function () {
+  let modal = document.getElementById("welcomeModal");
+  modal.style.display = "block";
+});
+document.querySelector("#info5 ").addEventListener("click", function () {
+  let modal = document.getElementById("welcomeModal");
+  modal.style.display = "block";
+});
+document.querySelector("#info6 ").addEventListener("click", function () {
+  let modal = document.getElementById("welcomeModal");
+  modal.style.display = "block";
+});
+document.querySelector("#infoLeaflet ").addEventListener("click", function () {
+  let modal = document.getElementById("welcomeModal");
+  modal.style.display = "block";
+});
 
 function hideModal() {
   let modal = document.getElementById("welcomeModal");
