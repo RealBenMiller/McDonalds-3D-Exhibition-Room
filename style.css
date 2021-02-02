@@ -804,7 +804,13 @@ body.view-control-buttons .viewControlButton {
   margin-left: 105px;
 }
 
-#info {
+#info,
+#info2,
+#info3,
+#info4,
+#info5,
+#info6,
+#infoLeaflet {
   width: 66px;
   height: 66px;
   margin-left: -30px;

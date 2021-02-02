@@ -20,6 +20,36 @@ scene.hotspotContainer().createHotspot(document.querySelector("#info"), {
   pitch: -0.06692682398677086,
 });
 
+scene.hotspotContainer().createHotspot(document.querySelector("#info2"), {
+  yaw: 1.3274772615518735,
+  pitch: -0.09375995713757135,
+});
+
+scene.hotspotContainer().createHotspot(document.querySelector("#info3"), {
+  yaw: 2.148535838050851,
+  pitch: -0.0883654887078631,
+});
+
+scene.hotspotContainer().createHotspot(document.querySelector("#info4"), {
+  yaw: -2.1409517927426105,
+  pitch: -0.11335045794850629,
+});
+
+scene.hotspotContainer().createHotspot(document.querySelector("#info5"), {
+  yaw: -1.3806520833866394,
+  pitch: -0.1250543884233064,
+});
+
+scene.hotspotContainer().createHotspot(document.querySelector("#info6"), {
+  yaw: -0.7455772111502839,
+  pitch: -0.09910901785368864,
+});
+
+scene.hotspotContainer().createHotspot(document.querySelector("#infoLeaflet"), {
+  yaw: 2.7974038372694032,
+  pitch: 0.20617291567136675,
+});
+
 document
   .querySelector("#info .icon_wrapper")
   .addEventListener("click", function () {
