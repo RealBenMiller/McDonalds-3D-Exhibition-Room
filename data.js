@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-mcdonalds-exhibition-room",
-      "name": "MCDONALDS EXHIBITION ROOM",
+      "id": "0-lexington-demo-final",
+      "name": "Lexington Demo Final",
       "levels": [
         {
           "tileSize": 256,
@@ -20,58 +20,70 @@ var APP_DATA = {
       ],
       "faceSize": 1000,
       "initialViewParameters": {
-        "yaw": 0.02655209632063915,
         "pitch": 0,
-        "fov": 1.5490757487700753
+        "yaw": 0,
+        "fov": 1.5707963267948966
       },
       "linkHotspots": [],
       "infoHotspots": [
         {
-          "yaw": 0.00752894003238147,
-          "pitch": 0.026299914993902718,
-          "title": "TV",
-          "text": "Text"
-        },
-        {
-          "yaw": 0.7227102907804497,
-          "pitch": -0.06692682398677086,
+          "yaw": 0.7741053061726149,
+          "pitch": -0.12162014908109597,
           "title": "Board One",
           "text": "Text"
         },
         {
-          "yaw": 1.3274772615518735,
-          "pitch": -0.09375995713757135,
-          "title": "Board Two",
+          "yaw": 1.301917555280319,
+          "pitch": -0.13940109075481288,
+          "title": "2",
           "text": "Text"
         },
         {
-          "yaw": 2.148535838050851,
-          "pitch": -0.0883654887078631,
-          "title": "Board Three",
+          "yaw": 1.9048689992925265,
+          "pitch": -0.1150860457462457,
+          "title": "3",
           "text": "Text"
         },
         {
-          "yaw": 2.7974038372694032,
-          "pitch": 0.20617291567136675,
-          "title": "Leaflet",
+          "yaw": 2.4200411235958956,
+          "pitch": -0.09516040266012027,
+          "title": "4",
           "text": "Text"
         },
         {
-          "yaw": -2.1409517927426105,
-          "pitch": -0.11335045794850629,
-          "title": "Board Four",
+          "yaw": 2.788103757297602,
+          "pitch": -0.08050737215533843,
+          "title": "5",
           "text": "Text"
         },
         {
-          "yaw": -1.3806520833866394,
-          "pitch": -0.1250543884233064,
-          "title": "Board Five",
+          "yaw": -2.47559175096222,
+          "pitch": -0.1168512359489462,
+          "title": "6",
           "text": "Text"
         },
         {
-          "yaw": -0.7455772111502839,
-          "pitch": -0.09910901785368864,
-          "title": "Board Six",
+          "yaw": -1.9282275065359578,
+          "pitch": -0.12304501430010006,
+          "title": "7",
+          "text": "Text"
+        },
+        {
+          "yaw": -1.2464385912540958,
+          "pitch": -0.11616447172050748,
+          "title": "8",
+          "text": "Text"
+        },
+        {
+          "yaw": -0.7068062567781919,
+          "pitch": -0.09943469438337971,
+          "title": "9",
+          "text": "Text"
+        },
+        {
+          "yaw": -3.0444223898585037,
+          "pitch": 0.30418343645922263,
+          "title": "Feedback",
           "text": "Text"
         }
       ]
