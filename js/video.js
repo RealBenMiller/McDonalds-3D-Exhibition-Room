@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-"use strict";
+// "use strict";
 
-scene.hotspotContainer().createHotspot(
-  document.getElementById("videoContainer"),
-  {
-    yaw: 0,
-    pitch: 0.07,
-  },
-  {
-    perspective: {
-      radius: 1640,
-    },
-  }
-);
+// scene.hotspotContainer().createHotspot(
+//   document.getElementById("videoContainer"),
+//   {
+//     yaw: 0,
+//     pitch: 0.07,
+//   },
+//   {
+//     perspective: {
+//       radius: 1640,
+//     },
+//   }
+// );
 
-var VideoHTML =
-  '<iframe id="youtube" width="900" height="480" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
+// var VideoHTML =
+//   '<iframe id="youtube" width="900" height="480" src="https://www.youtube.com/embed/XvRrHUvkbJc" frameborder="0" allowfullscreen></iframe>';
 
-var VideoHolder = (document.getElementById(
-  "videoContainer"
-).innerHTML = VideoHTML);
+// var VideoHolder = (document.getElementById(
+//   "videoContainer"
+// ).innerHTML = VideoHTML);
